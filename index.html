@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Gmail Account Create</title>
+        <!-- bootstrap link  -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+         <!-- css link -->
+         <link rel="stylesheet" href="style.css">
+         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" 
+         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" 
+         integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" 
+         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+    </head>
+    <!-- body tag begins  -->
+    <body>
+        <section id="sectionOne" class="container borderAdjust">
+            <div class="row createGmail ">
+                <div>
+                    <img src="images/logo.png" alt="Google image" class="img-responsive col-lg-2 imgAdjust" width="100%">
+                    <h5 class="heading">Create Your Google Account</h5>
+                </div>
+                <div id="formAdjust" class="formCreation col-lg-8">
+                    <form class="">
+                        <div class="namepage form-group row">
+                            <input type="text" class="inputValue2" id="firstName"  placeholder="First Name">
+                            <input type="text" class="inputValue1 inputValue2" value="" placeholder="Last Name" >
+                            
+                        </div>
+                        <p class="hiddenmsg">please enter first name and last name</p>
+                        <div class="gmailAdjust form-group">
+                            <input type="gmail" class="textAdjust" value="@gmail.com" placeholder="UserName">
+                            <p class="padjust">You can use letter,Numbers & periods</p>
+                            
+                        </div>
+                        <p class="hiddenmsg">Please Enter Gmail!</p>
+
+                        <div id="instruction">
+                            <a href="#">create a new Gmail address instead</a>
+                        </div>
+                        
+                        <div class="form-group passwordadjust">
+                            <input type="password" value="" placeholder="Password" >
+                            <input type="password" class="inputValue1" value="" placeholder="Confirm Password" >
+                            <p class="padjust">Use 8 or more charcters with a mix of letters,numbers & symbols</p>
+                            <p class="hiddenmsg">Please Enter Password!</p>
+                            <input type="checkbox" value=""><p class="show">Show password</p>
+                            
+                        </div>
+                        
+                        <div class="form-group signornext">
+                            <a href="#" class="">Sign in instead</a>
+                            <button class="btn btn-primary btnAdjust">Next</button>
+                        </div>
+                    </form> 
+                </div>  
+
+                <div class="allImages col-lg-4">
+                    <img src="images/account.svg" alt="account image" class="img-responsive">
+                    <p class="imgclass">One account. All of Google working for you.</p>
+                </div>
+            </div>
+        
+        </section>
+
+
+        <script src="index.js" meta-charset="utf-8"></script>
+    </body>
+    <!-- body tag close -->
+</html>

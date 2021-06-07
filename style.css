@@ -1,0 +1,82 @@
+#sectionOne{
+    border: 1px solid black;
+     height: 600px;
+   margin-top: 20px;
+    border-radius: 20px;
+}
+.borderAdjust{
+    width: 60%;
+    margin: auto;
+}
+.imgAdjust{
+    margin-top: 30px;
+}
+.inputValue2{
+    margin-top: 20px;    
+}
+.inputValue1{
+    margin-left: 10px;
+}
+/* .gmailAdjust{
+    margin-left: -13px;
+} */
+.heading{
+    margin-left: 2px;
+}
+.namepage{
+    margin-left: 1px;
+}
+.textAdjust{
+    width: 90%;
+    margin-top: 20px;
+    text-align: right;
+}
+#formAdjust{
+    padding:0px;
+}
+/* #instruction{
+    margin-left: -13px;
+} */
+.show {
+    margin-bottom: 0px;
+}
+/* .passwordadjust{
+    margin-left: -13px;
+} */
+.padjust{
+    font-size: 12px;
+}
+.gmailAdjust{
+    padding: 0%;
+}
+.passwordadjust{
+    margin-top: 20px;
+}
+.show{
+    position: relative;
+    float: right;
+    margin-right: 67%;
+}
+.btnAdjust{
+    margin-left: 50%;
+}
+.signornext{
+    padding: 0%;
+    /* margin-left: -13px; */
+}
+.signornext a{
+    padding: 0px;
+}
+.imgclass{
+    text-align: center;
+}
+.createGmail{
+    margin-left: 10px;
+}
+.hiddenmsg{
+    font-size: 9px;
+    margin-bottom: 0px;
+    margin-top: -11px;
+    color: red;
+    /* display: none; */
+}
