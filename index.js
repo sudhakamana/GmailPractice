@@ -5,14 +5,24 @@ document.getElementById("instruction").onclick= function (){
 document.getElementById("firstName").addEventListener("click", function(){
     document.getElementById("hiddenmsg1").style.display="inline";
 });
+document.getElementById("firstName").addEventListener("mouseleave",function(){
+    document.getElementById("hiddenmsg1").style.display="none";
+});
 
 document.getElementById("gmailID").addEventListener("click",function(){
     document.getElementById("hiddenmsg2").style.display="inline";   
+});
+document.getElementById("gmailID").addEventListener("mouseleave",function(){
+    document.getElementById("hiddenmsg2").style.display="none";   
 });
 
 document.getElementById("passwordid").addEventListener("click",function(){
     document.getElementById("hiddenmsg3").style.display="inline";
 });
+document.getElementById("passwordid").addEventListener("mouseleave",function(){
+    document.getElementById("hiddenmsg3").style.display="none";
+});
+
 
 function onclickmethod(){
     var numberOfclasses= document.querySelectorAll(".hiddenmsg").length;
