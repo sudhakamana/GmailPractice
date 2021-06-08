@@ -1,14 +1,18 @@
-var NumberofHiddenMsg = document.querySelectorAll(".hiddenmsg");
-
-for(var i=0; i<NumberofHiddenMsg; i++)
-{
-    document.querySelectorAll(".hiddenmsg")[i].addEventListener("click", firstLast);
-    function firstLast(){
-        alert("i got clicked");
-    }
+document.getElementById("instruction").onclick= function (){
+    this.innerHTML="Create a New Email Id Instead";
 }
 
+document.getElementById("firstName").addEventListener("click", function(){
+    document.getElementById("hiddenmsg1").style.display="inline";
+});
 
+document.getElementById("gmailID").addEventListener("click",function(){
+    document.getElementById("hiddenmsg2").style.display="inline";   
+});
+
+document.getElementById("passwordid").addEventListener("click",function(){
+    document.getElementById("hiddenmsg3").style.display="inline";
+});
 
 /*document.querySelectorAll(".hiddenmsg")[0].style.display="none";
 var firstName = document.querySelectorAll(".hiddenmsg")[0].style.display="none";
