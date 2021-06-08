@@ -1,5 +1,5 @@
 document.getElementById("instruction").onclick= function (){
-    this.innerHTML="Create a New Email Id Instead";
+    this.innerHTML="Use the Existed Gmail Id";
 }
 
 document.getElementById("firstName").addEventListener("click", function(){
@@ -13,6 +13,24 @@ document.getElementById("gmailID").addEventListener("click",function(){
 document.getElementById("passwordid").addEventListener("click",function(){
     document.getElementById("hiddenmsg3").style.display="inline";
 });
+
+function onclickmethod(){
+    var numberOfclasses= document.querySelectorAll(".hiddenmsg").length;
+        for(var i=0; i<numberOfclasses;i++)
+            {
+                //alert("i got clicked");
+                document.getElementsByClassName("hiddenmsg")[i].style.display="inline";
+            }
+        
+    setTimeout(function(){
+        //alert("i was clicked");
+        for(var i=0; i<numberOfclasses;i++)
+            {
+                //alert("i got clicked");
+                document.getElementsByClassName("hiddenmsg")[i].style.display="none";
+            }
+    },3000);
+}
 
 /*document.querySelectorAll(".hiddenmsg")[0].style.display="none";
 var firstName = document.querySelectorAll(".hiddenmsg")[0].style.display="none";
